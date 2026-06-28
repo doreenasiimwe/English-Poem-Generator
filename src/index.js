@@ -2,7 +2,7 @@ function displayPoem(response) {
   new Typewriter("#poem", {
     strings: response.data.answer,
     autoStart: true,
-    delay: 400,
+    delay: 100,
     cursor: "",
   });
 }
