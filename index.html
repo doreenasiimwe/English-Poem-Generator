@@ -17,10 +17,17 @@
       </header>
 
       <main>
+        <div class="form-container">
+          <p>
+            Welcome to the AI English Poem Generator! This tool allows you to
+            generate beautiful English poems based on your chosen topic. Simply
+            enter a topic in the input field below, and our AI will create a
+            unique poem for you.
+          </p>
         <form id="poem-generator-form">
           <input
             type="text"
-            placeholder="Enter the topic of the English poem"
+            placeholder="Enter the topic of the English poem you want to generate"
             autofocus
             required
             autocomplete="off"
@@ -28,6 +35,8 @@
             id="user-input" />
           <input type="submit" class="submit-button" />
         </form>
+        <div class="hint">i.e: Love, Rain or Friendship</div>
+        </div>
         <div class="poem" id="poem"></div>
       </main>
       <footer>
