@@ -4,7 +4,7 @@ function generatePoem(event) {
   new Typewriter("#poem", {
     strings: "No man is an island",
     autoStart: true,
-    delay: 1,
+    delay: 10,
     cursor: "",
   });
 }
